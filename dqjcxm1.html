@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>桥面系检查项</title>
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default top-navbar" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="dailyTest.jsp">桥面系检查项</a>
+            <p></p>
+        </div>
+
+    </nav>
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+
+                <li><a href="main.html"><i class="fa fa-user fa-fw"></i> 桥梁基础信息 </a>
+                </li>
+
+                <li>
+                    <a href="dailyTest1.html"><i class="fa fa-sitemap"></i> 日常巡检 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="dailyTest1.html"> 日常巡检记录</a>
+                        </li>
+                        <li>
+                            <a href="dailyTest.html">日常巡检详细信息</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 定期结构检测 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="pStrulook.html"> 定期结构检测记录</a>
+                        </li>
+                        <li>
+                            <a href="pStruIns.html">定期结构检测详细信息</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 定期常规检测 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="regularTest.html"> 定期常规检测记录</a>
+                        </li>
+                        <li>
+                            <a href="regularTest1.html">定期常规检测详细信息</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 定期检测检查项 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="dqjcxm1.html"> 桥面系</a>
+                        </li>
+                        <li>
+                            <a href="dqjcxm2.html">上部结构</a>
+                        </li>
+                        <li>
+                            <a href="dqjcxm3.html">下部结构</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="https://blog.csdn.net/ningziya/article/details/125702174"><i class="fa fa-user fa-fw"></i> 实验报告 </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <div id="page-wrapper">
+        <div id="page-inner">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            桥梁定期检测桥面系
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade active in" id="home">
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <div id="dataTables-example_wrapper" class="dataTables_wrapper form-inline" role="grid">
+                                                <table class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example2" aria-describedby="dataTables-example_info">
+                                                    <thead>
+                                                    <tr role="row">
+                                                        <th class="sorting_asc" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column ascending" style="width: 105px;">
+                                                            检查项编号
+                                                        </th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 160px;">
+                                                            检查项名称
+                                                        </th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 160px;">
+                                                            桥梁编号
+                                                        </th>
+                                                        <th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending" style="width: 145px;">
+                                                            损坏类型
+                                                        </th>
+
+                                                    </tr>
+                                                    </thead>
+
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                </table>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Metis Menu Js -->
+<script src="assets/js/jquery.metisMenu.js"></script>
+<!-- Custom Js -->
+<script src="assets/js/custom-scripts.js"></script>
+
+
+</body>
+</html>

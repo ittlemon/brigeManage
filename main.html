@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>桥梁信息展示</title>
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default top-navbar" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="dailyTest.jsp">桥梁信息展示</a>
+            <p></p>
+        </div>
+
+    </nav>
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+
+                <li><a href="main.html"><i class="fa fa-user fa-fw"></i> 桥梁基础信息 </a>
+                </li>
+
+                <li>
+                    <a href="dailyTest1.html"><i class="fa fa-sitemap"></i> 日常巡检 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="dailyTest1.html"> 日常巡检记录</a>
+                        </li>
+                        <li>
+                            <a href="dailyTest.html">日常巡检详细信息</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 定期结构检测 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="pStrulook.html"> 定期结构检测记录</a>
+                        </li>
+                        <li>
+                            <a href="pStruIns.html">定期结构检测详细信息</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 定期常规检测 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="regularTest.html"> 定期常规检测记录</a>
+                        </li>
+                        <li>
+                            <a href="regularTest1.html">定期常规检测详细信息</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 定期检测检查项 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="dqjcxm1.html"> 桥面系</a>
+                        </li>
+                        <li>
+                            <a href="dqjcxm2.html">上部结构</a>
+                        </li>
+                        <li>
+                            <a href="dqjcxm3.html">下部结构</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="https://blog.csdn.net/ningziya/article/details/125702174"><i class="fa fa-user fa-fw"></i> 实验报告 </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <!-- /. NAV SIDE  -->
+    <div id="page-wrapper" >
+        <div id="page-inner">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="page-header">
+                        桥梁详细信息
+                    </h1>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+
+            </div>
+            <!-- /. ROW  -->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            一般资料
+                        </div>
+                        <div class="panel-body1">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+
+                                    <tr><td>管理单位</td><td></td></tr>
+                                    <tr><td>养护单位</td><td></td></tr>
+                                    <tr><td>建设单位</td><td></td></tr>
+                                    <tr><td>设计单位</td><td></td></tr>
+                                    <tr><td>道路等级</td><td></td></tr>
+                                    <tr><td>结构类型</td><td></td></tr>
+                                    <tr><td>设计荷载</td><td></td></tr>
+                                    <tr><td>限载标准</td><td></td></tr>
+                                    <tr><td>桥面面积</td><td></td></tr>
+                                    <tr><td>桥梁总长(m)</td><td></td></tr>
+                                    <tr><td>桥梁总宽(m)</td>  <td></td></tr>
+                                    <tr><td>车行道总宽(m) </td>  <td></td></tr>
+                                    <tr><td>监理单位</td>  <td></td></tr>
+                                    <tr><td>施工单位</td>  <td></td></tr>
+                                    <tr><td>建成年月</td> <td></td> </tr>
+                                    <tr><td>总造价（元）</td>  <td></td></tr>
+                                    <tr><td>抗震烈度 </td>  <td></td></tr>
+                                    <tr><td>正斜交角 </td>  <td></td></tr>
+                                    <tr><td>桥梁跨数 </td>  <td></td></tr>
+                                    <tr><td>跨径组合(m)</td>  <td></td></tr>
+                                    <tr><td>人行道总宽(m) </td>  <td></td></tr>
+                                    <tr><td>河道等级 </td>  <td></td></tr>
+                                    <tr><td>最高水位(m) </td>  <td></td></tr>
+                                    <tr><td>常水位(m)</td>  <td></td></tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            上部结构资料
+                        </div>
+                        <div class="panel-body1">
+                            <table class="table table-striped table-bordered table-hover">
+                                <tbody>
+                                <tr><td>主梁形式  </td></tr>
+                                <tr><td>主梁尺寸  </td></tr>
+                                <tr><td>主梁数量  </td></tr>
+                                <tr><td>横梁形式  </td></tr>
+                                <tr><td>主跨桥下净空</td></tr>
+                                <tr><td>桥下限高  </td></tr>
+                                <tr><td>拱桥矢跨比 </td></tr>
+                                <tr><td>支座型式  </td></tr>
+                                <tr><td>支座数量  </td></tr>
+                                <tr><td>桥面结构  </td></tr>
+                                <tr><td>桥面铺装厚度</td></tr>
+                                <tr><td>伸缩缝型式 </td></tr>
+                                <tr><td>伸缩缝数量 </td></tr>
+                                <tr><td>主桥纵坡  </td></tr>
+                                <tr><td>主桥横坡  </td></tr>
+                                <tr><td>引桥纵坡  </td></tr>
+                                <tr><td>引桥横坡  </td></tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="panel-footer">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /. ROW  -->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            下部结构资料
+                        </div>
+                        <div class="panel-body1">
+                            <table class="table table-striped table-bordered table-hover">
+                                <tbody>
+                                <tr><td>桥墩形式   </td></tr>
+                                <tr><td>桥墩数量   </td></tr>
+                                <tr><td>桥墩标高   </td></tr>
+                                <tr><td>桥墩盖梁尺寸 </td></tr>
+                                <tr><td>桥墩基底标高 </td></tr>
+                                <tr><td>桥墩底板尺寸 </td></tr>
+                                <tr><td>桥墩基桩尺寸 </td></tr>
+                                <tr><td>桥墩基桩根数 </td></tr>
+                                <tr><td>桥台形式   </td></tr>
+                                <tr><td>桥台数量   </td></tr>
+                                <tr><td>桥台标高   </td></tr>
+                                <tr><td>桥台基底标高 </td></tr>
+                                <tr><td>桥台台帽尺寸 </td></tr>
+                                <tr><td>桥台底板尺寸 </td></tr>
+                                <tr><td>桥台基桩尺寸 </td></tr>
+                                <tr><td>桥台挡土板厚度</td></tr>
+                                <tr><td>桥台翼墙形式 </td></tr>
+                                <tr><td>桥台翼墙长度 </td></tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="panel-footer">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            附属工程与管线
+                        </div>
+                        <div class="panel-body1">
+                            <table class="table table-striped table-bordered table-hover">
+                                <tbody>
+                                <tr><td>集水口尺寸 </td></tr>
+                                <tr><td>集水口数量 </td></tr>
+                                <tr><td>泄水管尺寸 </td></tr>
+                                <tr><td>泄水管长度 </td></tr>
+                                <tr><td>栏杆总长  </td></tr>
+                                <tr><td>栏杆结构  </td></tr>
+                                <tr><td>端柱尺寸  </td></tr>
+                                <tr><td>护岸类型  </td></tr>
+                                <tr><td>引坡挡墙类型</td></tr>
+                                <tr><td>给水管   </td></tr>
+                                <tr><td>燃气管   </td></tr>
+                                <tr><td>电力缆   </td></tr>
+                                <tr><td>通信电缆  </td></tr>
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="panel-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /. PAGE INNER  -->
+    </div>
+    <!-- /. PAGE WRAPPER  -->
+
+</div>
+
+<script src="assets/js/jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Metis Menu Js -->
+<script src="assets/js/jquery.metisMenu.js"></script>
+<!-- Custom Js -->
+<script src="assets/js/custom-scripts.js"></script>
+
+
+</body>
+</html>
